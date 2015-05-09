@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="aluno1">Heverton Coneglian 51466</string>
+    <string name="aluno2">Rafael Santana Freire 50346</string>
+    <string name="aluno3">João Paulo Torres 50354</string>
+    <string name="aluno4">Thiago Santana</string>
+    <string name="app_name">InterestCalc</string>
+    <string name="button_calcular">Calc</string>
+    <string name="button_resetar">Reset</string>
+    <string name="description_si">Information Systems Logo</string>
+    <string name="description_unipar">Universidade Paranaense Logo</string>
+    <string name="menu_settings">About</string>
+    <string name="montante_hint">Value in R$</string>
+    <string name="si_about">Information Systems Course</string>
+    <string name="taxa_hint">Value in percentage</string>
+    <string name="tempo_hint">Value in months</string>
+    <string name="text_tutorial">The value you want to find must be left blank</string>
+    <string name="title_activity_main">InterestCalc</string>
+    <string name="title_montante">Amount</string>
+    <string name="title_taxa">Interest rate per month</string>
+    <string name="title_tempo">Period</string>
+    <string name="title_total">Capital</string>
+    <string name="total_hint">Value in R$</string>
+    <string name="unipar_about">Universidade Paranaense</string>
+
+</resources>

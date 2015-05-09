@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Heverton/StudioProjects/InterestCalc/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="aluno1">Heverton Coneglian 51466</string>
+    <string name="aluno2">Rafael Santana Freire 50346</string>
+    <string name="aluno3">João Paulo Torres 50354</string>
+    <string name="aluno4">Thiago Santana 50249</string>
+    <string name="app_name">InterestCalc</string>
+    <string name="button_calcular">Calcular</string>
+    <string name="button_resetar">Resetar</string>
+    <string name="description_si">Logo Sistemas de Informação</string>
+    <string name="description_unipar">Logo Universidade Paranaense</string>
+    <string name="empty_fields">Atenção! Dois ou mais campos estão vazios!</string>
+    <string name="menu_settings">Sobre</string>
+    <string name="montante_hint">Valor em R$</string>
+    <string name="si_about">Curso de Sistemas de Informação</string>
+    <string name="taxa_hint">Valor em %</string>
+    <string name="tempo_hint">Valor em meses</string>
+    <string name="text_tutorial">O valor que você quiser descobrir deve ser deixado em branco!</string>
+    <string name="title_activity_main">InterestCalc</string>
+    <string name="title_montante">Montante</string>
+    <string name="title_taxa">Taxa de juros ao mês</string>
+    <string name="title_tempo">Tempo</string>
+    <string name="title_total">Capital</string>
+    <string name="total_hint">Valor em R$</string>
+    <string name="unipar_about">Universidade Paranaense</string>
+</resources>

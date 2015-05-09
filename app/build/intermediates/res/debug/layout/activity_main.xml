@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutInterest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" >
+
+        <TextView
+            android:id="@+id/textTutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="1dp"
+            android:text="@string/text_tutorial"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:typeface="normal" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/textMontante"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:text="@string/title_montante"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editMontante"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.88"
+            android:ems="10"
+            android:hint="@string/montante_hint"
+            android:inputType="numberDecimal"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textTaxa"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:text="@string/title_taxa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTaxa"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.89"
+            android:ems="10"
+            android:hint="@string/taxa_hint"
+            android:inputType="numberDecimal"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textTempo"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:text="@string/title_tempo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTempo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.90"
+            android:ems="10"
+            android:hint="@string/tempo_hint"
+            android:inputType="numberDecimal"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textCapital"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:text="@string/title_total"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editCapital"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.91"
+            android:ems="10"
+            android:hint="@string/total_hint"
+            android:inputType="numberDecimal"
+            android:scrollHorizontally="false"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/button_calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_calcular" />
+
+        <Button
+            android:id="@+id/button_resetar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_resetar" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Heverton/StudioProjects/InterestCalc/app/src/main/res/layout/activity_main.xml -->
